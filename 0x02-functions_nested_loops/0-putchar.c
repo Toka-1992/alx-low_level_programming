@@ -1,4 +1,4 @@
-#include <putchar.h>
+#include <unistd.h>
 /**
 * main - function to print
 *
@@ -6,7 +6,7 @@
 *
 * Return: 0
 */
-int main(void)
+int _putchar(char)
 {
 char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 unsigned int c;
