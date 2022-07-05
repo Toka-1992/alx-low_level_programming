@@ -6,16 +6,17 @@
 */
 void print_alphabet_x10(void)
 {
-int print_alphabet_x10t;
-int count;
-count = 0;
-while (count < 10)
+int i = 0;
+char letter = a;
+while (i < 10)
 {
-for (print_alphabet_x10 = 'a' ; print_alphabet_x10 <= 'z'; print_alphabet_x10++)
+letter = 'a';
+while (letter <= 'z')
 {
-_putchar(print_alphabet_x10);
+_putchar = (letter);
+letter++
 }
-count++
 _putchar('\n');
+i++;
 }
 }
