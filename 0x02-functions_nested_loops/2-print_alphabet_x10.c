@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* main - print_alphabet_x10
+* main - check the code for Holberton School students.
 *
-* return: always 0.
+* Return: Always 0.
 */
 void print_alphabet_x10(void)
 {
