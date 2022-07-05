@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* main - print alphabet X10
+* main - print_alphabet_x10
 *
 * return: always 0.
 */
@@ -16,6 +16,6 @@ for (alphabet = 'a' ; alphabet <= 'z'; alphabet++)
 _putchar(alphabet);
 }
 count++
-_putchar('\n')
+_putchar('\n');
 }
 }
