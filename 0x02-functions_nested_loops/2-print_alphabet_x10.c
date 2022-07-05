@@ -2,6 +2,7 @@
 /**
 * main - check the code for Holberton School students.
 *
+* Description: function uses _putchar function to print
 * Return: Always 0.
 */
 void print_alphabet_x10(void)
