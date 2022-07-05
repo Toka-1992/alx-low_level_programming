@@ -1,12 +1,19 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
-* _putchar - writes the character c to stdout
-* @c: The character to print
+* main - function to print
 *
-* Return: On success 1.
-* On error, -1 is returned, and errno is set appropriately.
+* function: print putchar followed by a new line.
+*
+* Return: 0
 */
-int _putchar(char c)
+int main(void)
 {
-return (write(1, &c, 1));
+char _putchar [8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+unsigned int c;
+for (c = 0; c < sizeof(_putchar); c++)
+{
+_putchar(holberton[c]);
+}
+_putchar('\n');
+return (0);
 }
